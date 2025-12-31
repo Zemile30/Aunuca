@@ -2443,6 +2443,14 @@ header .icon i:hover {
 }
 
 @media (max-width: 576px) {
+    #special-customers {
+        height: auto;
+    }
+
+    .customers-data {
+        height: auto;
+    }
+
     .special-content h1 {
         font-size: 30px;
     }
@@ -2466,6 +2474,9 @@ header .icon i:hover {
 
     .customers-container:hover .img-data {
         max-height: 300px;
+    }
+    .updates-text{
+        width: 100%;
     }
 }
 
@@ -2552,7 +2563,8 @@ header .icon i:hover {
 }
 
 .updates-text {
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
 }
 
 .updates-text ul {
@@ -2702,6 +2714,10 @@ ul .admin:hover {
 }
 
 @media (max-width: 576px) {
+    #news-updates {
+        height: auto;
+    }
+
     .updates-container {
         min-height: auto;
     }
@@ -2920,32 +2936,39 @@ footer .end-container {
     .topic-box {
         width: 250px;
     }
-    }
+}
+
 @media (max-width: 880px) {
     footer .end-container {
         display: flex;
         flex-direction: column-reverse;
     }
+
     .end-image {
         padding: 60px 0;
         width: 100%;
     }
+
     .end-container .end-content {
         width: 100%;
     }
+
     .add-box input {
         width: 100%;
     }
+
     .add-box button {
         width: 100%;
     }
+
     .text-end {
-        height: 25vh;
+        /* height: 25vh; */
         display: flex;
         align-items: flex-start;
         padding-top: 30px;
     }
 }
+
 @media (max-width: 768px) {
     .end-content .text-title {
         display: flex;
@@ -2955,11 +2978,14 @@ footer .end-container {
         height: auto;
         gap: 20px;
     }
+
     .topic-box {
         width: 400px;
     }
+
     .text-end .text-content {
         display: none;
     }
 }
-    /* footer end */
+
+/* footer end */
